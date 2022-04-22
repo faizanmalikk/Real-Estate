@@ -27,8 +27,8 @@ export default function ImageScrollBar({ data }) {
       
     
       >
-        {data.map((item) => (
-          <SwiperSlide>
+        {data.map((item,i) => (
+          <SwiperSlide key={i}>
             <Box >      
                     <Image
               placeholder="blur"
