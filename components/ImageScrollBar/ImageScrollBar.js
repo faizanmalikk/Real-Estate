@@ -13,7 +13,7 @@ import { Pagination, Navigation } from "swiper";
 import { Box, Flex,useMediaQuery } from "@chakra-ui/react";
 
 export default function ImageScrollBar({ data }) {
-  const [isLargerThan400] = useMediaQuery('(min-width: 400px)')
+  const [isLargerThan400] = useMediaQuery('(min-width: 480px)')
 
   return (
     <>
